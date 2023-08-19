@@ -6,7 +6,8 @@
 body{
     padding-left: calc(50% - 360px / 2);
     padding-right: calc(50% - 360px / 2);
-    background-color: black;
+    background-color: rgb(29, 28, 28);
+    
 }
 a{
     text-decoration: none;
