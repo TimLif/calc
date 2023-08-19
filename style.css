@@ -15,8 +15,8 @@ a{
 .container{
     background-color: rgb(29, 28, 28);
     border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     padding-top: 10px;
     height: 100vh;
 }
@@ -26,7 +26,7 @@ a{
     border-radius: 15px;
     /* border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; */
-    background-color: rgb(133, 84, 4);
+    background-color: rgb(86, 76, 58);
     padding: 30px 10px;
     color: white;
     font-size: 80px;
@@ -36,7 +36,7 @@ a{
 .buttons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 15px;
     row-gap: 25px;
     padding-bottom: 30px;
     padding-top: 30px;
@@ -79,3 +79,11 @@ a{
     
 }
 
+.buttonMoney{
+    grid-column: 1/4;
+    font-size: 15px;
+    padding-top: 26px;
+    border-radius: 40px;
+    background-color: rgb(8, 100, 17);
+
+}
